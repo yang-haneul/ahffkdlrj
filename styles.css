@@ -1,0 +1,69 @@
+h1 {
+  color: black;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  text-align: center;
+  color: #DF0101; 
+}
+
+.header {
+  font-size: 3rem;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.text-container {
+  display: inline-block;
+  background-color: #DF0101;
+  color: #ffffff;
+  padding: 0px 40px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.text-container a {
+  color: #ffffff; /* 링크 색상을 흰색으로 설정 */
+}
+
+.text-container a:hover {
+  color: #f0f0f0; /* 호버 시 약간 밝게 */
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+.column {
+  text-align: center;
+}
+
+.column h3 {
+  font-size: 17px;
+  margin-bottom: -3px;
+  font-weight: 600;
+}
+
+.column p {
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #DF0101; 
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #DF0101;
+}
