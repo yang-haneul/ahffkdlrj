@@ -1,69 +1,39 @@
-h1 {
-  color: black;
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #ffffff; /* 배경색: 흰색 */
+  color: #ff0000; /* 텍스트 색상: 빨간색 */
+  font-family: Arial, sans-serif;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-  text-align: center;
-  color: #DF0101; 
+.container {
+  text-align: left; /* 텍스트를 왼쪽 정렬 */
 }
 
 .header {
   font-size: 3rem;
-  margin-top: 50px;
   font-weight: bold;
+  margin-bottom: 40px;
 }
 
-.text-container {
-  display: inline-block;
-  background-color: #DF0101;
-  color: #ffffff;
-  padding: 0px 40px;
-  font-size: 15px;
-  text-align: center;
-  font-weight: normal;
+.section {
+  margin-bottom: 40px; /* 섹션 간 간격 */
 }
 
-.text-container a {
-  color: #ffffff; /* 링크 색상을 흰색으로 설정 */
+.section h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.text-container a:hover {
-  color: #f0f0f0; /* 호버 시 약간 밝게 */
-}
-
-.columns {
-  display: flex;
-  justify-content: center;
-  gap: 25px;
-  margin-top: 10px;
-}
-
-.column {
-  text-align: center;
-}
-
-.column h3 {
-  font-size: 17px;
-  margin-bottom: -3px;
-  font-weight: 600;
-}
-
-.column p {
-  font-size: 12px;
-  line-height: 1.4;
+.section p {
+  font-size: 1rem;
+  line-height: 1.8;
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-  color: #DF0101; 
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #DF0101;
+.large-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 40px;
 }
